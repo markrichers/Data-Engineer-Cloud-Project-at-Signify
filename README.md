@@ -8,3 +8,7 @@ The goal of the project is to build a system that will monitor older adults in t
 ## Connect to influxDb to build Grafana-Dashboard
 ![ABC](https://github.com/MarkRichers/Signify_Cloud/blob/new_path/Capture.PNG)
 
+## InfluxDB-Terminal
+![image](https://user-images.githubusercontent.com/50198601/138552983-59cbf4b8-5818-416d-8ee6-304a2efc6a79.png)
+
+
