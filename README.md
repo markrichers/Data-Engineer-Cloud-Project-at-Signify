@@ -17,8 +17,15 @@ The goal of the project is to build a system that will monitor older adults in t
 
 ### Creating a decoration
 
+Access Terminal-Linux-Ubuntu to see databases. 
+
 ```coffee
-range = editor.getSelectedBufferRange()
-marker = editor.markBufferRange(range, invalidate: 'never')
-editor.decorateMarker(marker, type: 'line', class: "my-line-class")
+influx
+
+show databases
+
+SHOW MEASUREMENTS
+
+select * from fall_detections
+
 ```
