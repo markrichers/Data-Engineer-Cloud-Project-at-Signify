@@ -12,3 +12,13 @@ The goal of the project is to build a system that will monitor older adults in t
 ![image](https://user-images.githubusercontent.com/50198601/138552983-59cbf4b8-5818-416d-8ee6-304a2efc6a79.png)
 
 
+## The code for InfluxDB
+- Use Python to upload to influxDb
+
+### Creating a decoration
+
+```coffee
+range = editor.getSelectedBufferRange()
+marker = editor.markBufferRange(range, invalidate: 'never')
+editor.decorateMarker(marker, type: 'line', class: "my-line-class")
+```
