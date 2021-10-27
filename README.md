@@ -35,4 +35,4 @@ Following by the JSON file:
 ```coffee
 { "sensor_id": "id", "sensor_name": "fall_detection_menaingful_name_string", "fall_detection": "1/0", "elevation": "Z", "x_coordinate": "X", "y_coordinate": "Y", "velocity": "V", "motion": "motion_level", "time": "timestamp" }
 ```
-
+### Settup Cloud-Service with Lambda, EC2 instance, and VPC, IAM role. 
