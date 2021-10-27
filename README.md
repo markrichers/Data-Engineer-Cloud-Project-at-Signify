@@ -15,6 +15,8 @@ The goal of the project is to build a system that will monitor older adults in t
 ## The code for InfluxDB
 - Use Python to upload to influxDb
 
+### Using Port For Grafana
+
 ### Creating a decoration
 
 Access Terminal-Linux-Ubuntu to see databases. 
