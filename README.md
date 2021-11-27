@@ -18,7 +18,7 @@ The goal of the project is to build a system that will monitor older adults in t
 - Use Python to upload to influxDb
 
 ### Using Port For Grafana
-
+Created an EC2 instance to install Grafana. 
 ### Creating a decoration
 
 Access Terminal-Linux-Ubuntu to see databases. 
