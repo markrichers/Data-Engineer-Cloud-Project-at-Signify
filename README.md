@@ -15,8 +15,10 @@ The goal of the project is to build a system that will monitor older adults in t
 
 
 ## The code for InfluxDB
-- Use Python to upload to influxDb
-
+- Use Python to upload to Lambda Rest API. 
+- Lambda merge the data to EC2 instance where InfluxDB is Hosted. 
+- Grafana load the database from InfluxDB.
+- Apply Private API and VPC + Cloud Formation. 
 ### Using Port For Grafana
 Created an EC2 instance to install Grafana. 
 ### Creating a decoration
