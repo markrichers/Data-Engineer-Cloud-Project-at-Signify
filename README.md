@@ -42,6 +42,7 @@ Following by the JSON file:
 { "sensor_id": "id", "sensor_name": "fall_detection_menaingful_name_string", "fall_detection": "1/0", "elevation": "Z", "x_coordinate": "X", "y_coordinate": "Y", "velocity": "V", "motion": "motion_level", "time": "timestamp" }
 ```
 ### Settup Cloud-Service with Lambda, EC2 instance, and VPC, IAM role. 
-### Time Stream
+### Diagram
 ![Capture](https://user-images.githubusercontent.com/50198601/148988881-f582c340-c9f3-489e-bb6f-076c8803d878.PNG)
+### Time Stream
 
