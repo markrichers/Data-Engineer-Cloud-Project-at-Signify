@@ -44,7 +44,7 @@ def lambda_handler(event, context):
     ifuser = "grafana"
     ifpass = "thienphuc"
     ifdb   = "home"
-    ifhost = "ec2-3-125-120-129.eu-central-1.compute.amazonaws.com"
+    ifhost = "ec2-3-65-21-217.eu-central-1.compute.amazonaws.com"
     ifport = 8086
     if_client_data_input = InfluxDBClient(ifhost,ifport,ifuser,ifpass,ifdb)
     if_client_data_input.write_points(dbline_Fall_detections)
